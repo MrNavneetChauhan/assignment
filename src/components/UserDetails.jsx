@@ -53,7 +53,7 @@ const UserDetails = (props) => {
           </h3>
         </div>
         <button className={styles.buttons} data-testid="follow-btn">
-          {is_following?"unfollow":"follow"}
+          {is_following?"Unfollow":"Follow"}
         </button>
       </div>
     </>
